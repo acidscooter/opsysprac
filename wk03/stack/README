@@ -1,0 +1,3 @@
+To compile type the following:
+
+gcc -o contacts contacts.c stack.c 

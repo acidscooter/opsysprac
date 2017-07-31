@@ -1,0 +1,12 @@
+To compile the programs:
+
+gcc -o create create.c -lrt
+gcc -o send send.c -lrt
+gcc -o receive receive.c -lrt
+
+The executable 'create' is run first to create the message-parsing queue
+The queue must have a name, and the name must begin with a slash.
+
+The 'send' executable writes messages to the queue.
+
+The 'receive' executable reads messages from the queue.

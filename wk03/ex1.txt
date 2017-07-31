@@ -1,0 +1,11 @@
+Explain why this structure is illegal:
+	struct Point {
+	    int x;
+	    int y;
+	    struct Point p;
+	};
+This is illegal because the 'stuct Point p' command will continue to loop and attempt to allocate int x and int y, impossible as it will never know the size so it cannot allocate the structure.
+
+a good hash funcion is one that will distribute evenly so that there are not a large amount of link lists, the hash map is like a pointer to a series of linked-lists.
+
+Stacks, Queue, Hash, linked-list

@@ -1,0 +1,4 @@
+To compile type the following:
+
+gcc -o contacts contacts.c queue.c 
+
